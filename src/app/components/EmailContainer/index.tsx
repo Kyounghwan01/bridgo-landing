@@ -35,6 +35,8 @@ const Index = ({
       alert(
         "Thank you for sharing your concern. We will get back to you soon."
       );
+      setEmail("");
+      setConcern("");
     }
   };
 
