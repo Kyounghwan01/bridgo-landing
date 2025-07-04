@@ -309,8 +309,8 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              We&apos;ve scaled faster, cut costs, and found amazing talent in
-              unexpected places.
+              &quot;We&apos;ve scaled faster, cut costs, and found amazing talent in
+              unexpected places.&quot;
             </p>
           </div>
         </div>
