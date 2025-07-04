@@ -28,16 +28,30 @@ export default function Home() {
       }}
     >
       <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-        <div style={{ padding: "100px 20px 20px" }}>
+        <div style={{ padding: "60px 20px 20px" }}>
           <p
-            style={{ fontSize: "32px", marginBottom: "10px", fontWeight: 900 }}
+            style={{ fontSize: "22px", marginBottom: "10px", fontWeight: 700 }}
           >
-            Need help?
+            Build your Deram Team
+            <br /> Without Breaking the Bank
           </p>
           <p
-            style={{ fontSize: "24px", marginBottom: "20px", fontWeight: 900 }}
+            style={{ fontSize: "16px", marginBottom: "25px", fontWeight: 500 }}
           >
-            You&apos;re in the right place!
+            Get access to top global freelancers in development, design, and
+            more - at a fraction of local costs.
+          </p>
+
+          <p
+            style={{ fontSize: "22px", marginBottom: "10px", fontWeight: 700 }}
+          >
+            Smart outsourcing starts here.
+          </p>
+          <p
+            style={{ fontSize: "16px", marginBottom: "20px", fontWeight: 500 }}
+          >
+            Hire English-speaking professionals from Indea, Southeash Aisa, and
+            beyond - fully vetted, ready to deliver.
           </p>
 
           <div style={{ position: "relative", height: "220px" }}>
@@ -63,7 +77,7 @@ export default function Home() {
             onClick={handleTryClick}
           >
             <span style={{ fontSize: 20, fontWeight: 500, color: "#ffffff" }}>
-              Try it for free
+              Start Hiring Today
             </span>
           </button>
         </div>
@@ -118,10 +132,10 @@ export default function Home() {
             <p
               style={{
                 color: "rgb(98, 98, 98)",
-                fontSize: 16,
+                fontSize: 15,
                 fontWeight: 500,
-                marginTop: 20,
-                marginBottom: 40,
+                marginTop: 15,
+                marginBottom: 20,
               }}
             >
               Whatever your concern, we&apos;ll listen closely and match you
@@ -151,20 +165,26 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                Tell us your story
+                Meet yout Expert
               </p>
             </div>
             <p
               style={{
                 color: "rgb(98, 98, 98)",
-                fontSize: 16,
+                fontSize: 15,
                 fontWeight: 500,
-                marginTop: 20,
-                marginBottom: 40,
+                marginTop: 15,
+                marginBottom: 20,
               }}
             >
-              Whatever your concern, we&apos;ll listen closely and match you
-              with the right expert
+              Based on your story, our expert will offer a solution via email —
+              and guide you every step of the way.
+            </p>
+
+            <p
+              style={{ textAlign: "center", color: "#ff0004ff", fontSize: 14 }}
+            >
+              100% FREE!
             </p>
           </div>
 
@@ -190,26 +210,26 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                Tell us your story
+                We protect your story
               </p>
             </div>
             <p
               style={{
                 color: "rgb(98, 98, 98)",
-                fontSize: 16,
+                fontSize: 15,
                 fontWeight: 500,
-                marginTop: 20,
-                marginBottom: 40,
+                marginTop: 15,
+                marginBottom: 20,
               }}
             >
-              Whatever your concern, we&apos;ll listen closely and match you
-              with the right expert
+              No name, No exposure, No risk. All conversations are private and
+              secure.
             </p>
           </div>
         </div>
 
         {/* real review */}
-        <div style={{ padding: "50px 30px" }}>
+        <div style={{ padding: "50px 30px 20px" }}>
           <h2
             style={{
               fontSize: "24px",
@@ -238,7 +258,7 @@ export default function Home() {
               />
               <div>
                 <div style={{ fontSize: 12, marginBottom: 2 }}>
-                  Mr. Daniel (University Student)
+                  Alex J. Startup Founder in New York
                 </div>
                 <div style={{ position: "relative", right: 4 }}>
                   <img src={"/star.png"} style={{ width: 150 }} />
@@ -253,19 +273,8 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              &quot;I was freaking out about studying abroad. Now I feel
-              ready.&quot;
-            </p>
-            <p
-              style={{
-                color: "rgb(61, 61, 61)",
-                fontSize: 13,
-                lineHeight: "20px",
-              }}
-            >
-              I had zero clarity. I didn&apos;t know where to go or even why I
-              wanted to. Bridgo helped me focus on what I really care about, not
-              just what sounds cool.
+              "I built an entire app with $3,000 - it would've cost $15K here.
+              Thie platform changed the game for out startup."
             </p>
           </div>
 
@@ -285,7 +294,7 @@ export default function Home() {
               />
               <div>
                 <div style={{ fontSize: 12, marginBottom: 2 }}>
-                  Mrs. Grace(Marketing Associate)
+                  Rachel T. Marketing Director in Sydney
                 </div>
                 <div style={{ position: "relative", right: 4 }}>
                   <img src={"/star.png"} style={{ width: 150 }} />
@@ -300,69 +309,8 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              &quot;Was totally lost with work stuff, but bridgo helped me
-              figure it out.&quot;
-            </p>
-            <p
-              style={{
-                color: "rgb(61, 61, 61)",
-                fontSize: 13,
-                lineHeight: "20px",
-              }}
-            >
-              I was seriously stuck on whether I should quit or try a new role
-              at my company. The expert, Jacob, helped me list out my priorities
-              and even suggested how to approach my manager. Long story short —
-              I switched teams last month, and I’m finally feeling excited about
-              work again.
-            </p>
-          </div>
-
-          <div style={{ marginBottom: "30px" }}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "20px",
-                marginBottom: "10px",
-              }}
-            >
-              <img
-                src={"/woman.png"}
-                style={{ width: 52, height: 52 }}
-                alt="awd"
-              />
-              <div>
-                <div style={{ fontSize: 12, marginBottom: 2 }}>
-                  Mrs. Hana (Woring Mom)
-                </div>
-                <div style={{ position: "relative", right: 4 }}>
-                  <img src={"/star.png"} style={{ width: 150 }} />
-                </div>
-              </div>
-            </div>
-            <p
-              style={{
-                marginBottom: "5px",
-                fontSize: 15,
-                padding: 5,
-                fontWeight: 600,
-              }}
-            >
-              &quot;Honestly, I just needed someone to listen — and she really
-              did.&quot;
-            </p>
-            <p
-              style={{
-                color: "rgb(61, 61, 61)",
-                fontSize: 13,
-                lineHeight: "20px",
-              }}
-            >
-              Balancing my job and kids was crushing me. I didn’t expect much,
-              but the expert gave me super practical advice that actually fits
-              my life. Nothing fancy, just small, doable things. I’ve been
-              sleeping better and feel way less overwhelmed.
+              "We've scaled faster, cut costs, and found amazing talent in
+              unexpected places."
             </p>
           </div>
         </div>
