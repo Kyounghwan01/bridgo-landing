@@ -202,7 +202,7 @@ export default function Home() {
                 marginBottom: 20,
               }}
             >
-              All freelancers are fluent un English. Plus, our platform supports integrated chat, video and file sharing.
+              All freelancers are fluent in English. Plus, our platform supports integrated chat, video and file sharing.
             </p>
           </div>
 
