@@ -228,7 +228,7 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                Pay Safely % Easily
+                Pay Safely & Easily
               </p>
             </div>
             <p
