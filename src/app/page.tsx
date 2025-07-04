@@ -42,18 +42,6 @@ export default function Home() {
             more - at a fraction of local costs.
           </p>
 
-          <p
-            style={{ fontSize: "22px", marginBottom: "10px", fontWeight: 700 }}
-          >
-            Smart outsourcing starts here.
-          </p>
-          <p
-            style={{ fontSize: "16px", marginBottom: "20px", fontWeight: 500 }}
-          >
-            Hire English-speaking professionals from Indea, Southeash Aisa, and
-            beyond - fully vetted, ready to deliver.
-          </p>
-
           <div style={{ position: "relative", height: "220px" }}>
             <div style={{ position: "absolute", right: 0 }}>
               <img src={"/Illustration.png"} style={{ width: 280 }} alt="awd" />
@@ -126,7 +114,7 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                Tell us your story
+                Affordable, Expert Talent
               </p>
             </div>
             <p
@@ -138,8 +126,7 @@ export default function Home() {
                 marginBottom: 20,
               }}
             >
-              Whatever your concern, we&apos;ll listen closely and match you
-              with the right expert
+              Pay up to 70% less than hiring locally - with zeop compromise on quality.
             </p>
           </div>
 
@@ -165,7 +152,7 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                Meet yout Expert
+                Vetted & Verified
               </p>
             </div>
             <p
@@ -177,14 +164,7 @@ export default function Home() {
                 marginBottom: 20,
               }}
             >
-              Based on your story, our expert will offer a solution via email —
-              and guide you every step of the way.
-            </p>
-
-            <p
-              style={{ textAlign: "center", color: "#ff0004ff", fontSize: 14 }}
-            >
-              100% FREE!
+              All freelancers undergo language and skill testing. No more guessing games.
             </p>
           </div>
 
@@ -210,7 +190,7 @@ export default function Home() {
                   fontWeight: 700,
                 }}
               >
-                We protect your story
+                Seamless Communication
               </p>
             </div>
             <p
@@ -222,8 +202,45 @@ export default function Home() {
                 marginBottom: 20,
               }}
             >
-              No name, No exposure, No risk. All conversations are private and
-              secure.
+              All freelancers are fluent un English. Plus, our platform supports integrated chat, video and file sharing.
+            </p>
+          </div>
+
+          <div
+            style={{
+              backgroundColor: "white",
+              padding: "20px",
+              borderRadius: "10px",
+              color: "black",
+              marginBottom: "20px",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+              <img
+                src={"/icon.png"}
+                style={{ width: 45, height: 45 }}
+                alt="awd"
+              />
+              <p
+                style={{
+                  fontSize: 18,
+                  color: "rgb(61, 61, 61)",
+                  fontWeight: 700,
+                }}
+              >
+                Pay Safely % Easily
+              </p>
+            </div>
+            <p
+              style={{
+                color: "rgb(98, 98, 98)",
+                fontSize: 15,
+                fontWeight: 500,
+                marginTop: 15,
+                marginBottom: 20,
+              }}
+            >
+              Escrow system ensures you pay only when the job is done right.
             </p>
           </div>
         </div>
