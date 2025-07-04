@@ -22,7 +22,7 @@ const Index = () => {
   const isFormValid = validateEmail(email) && concern.trim().length > 0;
 
   const submit = async () => {
-    const { data, error, status } = await supabase
+    const { data } = await supabase
       .from("bridgo-email")
       .insert({ email, concern })
       .select();

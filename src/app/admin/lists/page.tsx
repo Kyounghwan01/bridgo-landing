@@ -3,14 +3,14 @@ import { supabase } from "@/lib/supabaseClient";
 import { useState, useEffect } from "react";
 
 const Index = () => {
-  const [lists, setLists] = useState<any[]>([]);
+  const [lists, setLists] = useState<{id: number, email: string, concern: string}[]>([]);
 
   useEffect(() => {
     getLists();
   }, []);
 
   const getLists = async () => {
-    const { data, status } = await supabase.from("bridgo-email").select("*");
+    const { data } = await supabase.from("bridgo-email").select("*");
 
     if (data?.length) {
       setLists(data);
