@@ -273,8 +273,8 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              "I built an entire app with $3,000 - it would've cost $15K here.
-              Thie platform changed the game for out startup."
+              &quot;I built an entire app with $3,000 - it would've cost $15K here.
+              Thie platform changed the game for out startup.&quot;
             </p>
           </div>
 
@@ -309,8 +309,8 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              "We've scaled faster, cut costs, and found amazing talent in
-              unexpected places."
+              We&apos;ve scaled faster, cut costs, and found amazing talent in
+              unexpected places.
             </p>
           </div>
         </div>
