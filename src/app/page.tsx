@@ -1,3 +1,5 @@
+import EmailContainer from '@/app/components/EmailContainer';
+
 export default function Home() {
   return (
     <div
@@ -350,78 +352,7 @@ export default function Home() {
         </div>
 
         {/* email commit */}
-        <div
-          style={{
-            backgroundColor: "rgb(215, 232, 255)",
-            padding: "80px 30px",
-          }}
-        >
-          <h2
-            style={{
-              color: "rgb(61, 61, 61)",
-              fontSize: "25px",
-              marginBottom: "20px",
-              borderBottom: "1px solid rgb(61, 61, 61)",
-              paddingBottom: 20,
-            }}
-          >
-            Please share your concern
-          </h2>
-
-          <div style={{ marginBottom: "15px" }}>
-            <label
-              style={{ display: "block", marginBottom: "5px", fontWeight: 500 }}
-            >
-              Email <span style={{ color: "#ff4444" }}>*</span>
-            </label>
-            <input
-              type="email"
-              placeholder="ex) abade@abc.com"
-              style={{
-                width: "100%",
-                padding: "10px",
-                border: "1px solid #ddd",
-                borderRadius: "5px",
-                boxSizing: "border-box",
-                background: "#ffffff",
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: "15px" }}>
-            <label
-              style={{ display: "block", marginBottom: "5px", fontWeight: 500 }}
-            >
-              Concern <span style={{ color: "#ff4444" }}>*</span>
-            </label>
-            <textarea
-              placeholder="Detail your Concern"
-              style={{
-                width: "100%",
-                padding: "10px",
-                border: "1px solid #ddd",
-                borderRadius: "5px",
-                minHeight: "100px",
-                boxSizing: "border-box",
-                background: "#ffffff",
-              }}
-            />
-          </div>
-
-          <button
-            style={{
-              width: "100%",
-              padding: "15px",
-              backgroundColor: "rgb(13, 110, 253)",
-              color: "white",
-              border: "none",
-              borderRadius: "5px",
-              cursor: "pointer",
-            }}
-          >
-            Submit
-          </button>
-        </div>
+        <EmailContainer />
 
         {/* 마지막 footer */}
         <div
