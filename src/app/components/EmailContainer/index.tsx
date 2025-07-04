@@ -1,8 +1,12 @@
 "use client";
 import { supabase } from "@/lib/supabaseClient";
-import { useState } from "react";
+import { RefObject, useState } from "react";
 
-const Index = () => {
+const Index = ({
+  emailInputRef,
+}: {
+  emailInputRef: RefObject<HTMLInputElement | null>;
+}) => {
   const [email, setEmail] = useState("");
   const [concern, setConcern] = useState("");
 
@@ -28,7 +32,9 @@ const Index = () => {
       .select();
 
     if (data?.length) {
-        alert("Thank you for sharing your concern. We will get back to you soon.");
+      alert(
+        "Thank you for sharing your concern. We will get back to you soon."
+      );
     }
   };
 
@@ -59,6 +65,7 @@ const Index = () => {
         </label>
         <input
           type="email"
+          ref={emailInputRef}
           placeholder="ex) abade@abc.com"
           value={email}
           onChange={handleEmailChange}

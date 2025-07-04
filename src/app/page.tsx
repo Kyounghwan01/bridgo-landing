@@ -1,6 +1,21 @@
-import EmailContainer from '@/app/components/EmailContainer';
+"use client";
+import { useRef } from "react";
+import EmailContainer from "@/app/components/EmailContainer";
 
 export default function Home() {
+  const emailSectionRef = useRef<HTMLDivElement>(null);
+  const emailInputRef = useRef<HTMLInputElement>(null);
+
+  const handleTryClick = () => {
+    // 부드럽게 스크롤 이동
+    emailSectionRef.current?.scrollIntoView({ behavior: "smooth" });
+
+    // 스크롤 애니메이션 끝난 후 포커스 주기 위해 잠시 딜레이
+    setTimeout(() => {
+      emailInputRef.current?.focus();
+    }, 500);
+  };
+
   return (
     <div
       style={{
@@ -45,6 +60,7 @@ export default function Home() {
               bottom: 35,
               height: 60,
             }}
+            onClick={handleTryClick}
           >
             <span style={{ fontSize: 20, fontWeight: 500, color: "#ffffff" }}>
               Try it for free
@@ -352,7 +368,9 @@ export default function Home() {
         </div>
 
         {/* email commit */}
-        <EmailContainer />
+        <div ref={emailSectionRef}>
+          <EmailContainer emailInputRef={emailInputRef} />
+        </div>
 
         {/* 마지막 footer */}
         <div
@@ -397,8 +415,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{paddingLeft: 10}}>
-            <p style={{fontSize: 15, lineHeight: '18px'}}>
+          <div style={{ paddingLeft: 10 }}>
+            <p style={{ fontSize: 15, lineHeight: "18px" }}>
               Who we are?
               <br />
               Bridgo : The bridge connecting you to the world.
