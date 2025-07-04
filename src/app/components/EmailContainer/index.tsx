@@ -61,7 +61,7 @@ const Index = ({
 
       <div style={{ marginBottom: "15px" }}>
         <label
-          style={{ display: "block", marginBottom: "5px", fontWeight: 500 }}
+          style={{ display: "block", marginBottom: "5px", fontWeight: 600, fontSize: 18 }}
         >
           Email <span style={{ color: "#ff4444" }}>*</span>
         </label>
@@ -79,13 +79,14 @@ const Index = ({
             boxSizing: "border-box",
             background: "#ffffff",
             color: "#000000",
+            fontSize: "16px",
           }}
         />
       </div>
 
       <div style={{ marginBottom: "15px" }}>
         <label
-          style={{ display: "block", marginBottom: "5px", fontWeight: 500 }}
+          style={{ display: "block", marginBottom: "5px", fontWeight: 600, fontSize: 18 }}
         >
           Concern <span style={{ color: "#ff4444" }}>*</span>
         </label>
@@ -98,10 +99,11 @@ const Index = ({
             padding: "10px",
             border: "1px solid #ddd",
             borderRadius: "5px",
-            minHeight: "100px",
+            minHeight: "150px",
             boxSizing: "border-box",
             background: "#ffffff",
             color: "#000000",
+            fontSize: "16px",
           }}
         />
       </div>
@@ -117,6 +119,7 @@ const Index = ({
           border: "none",
           borderRadius: "5px",
           cursor: isFormValid ? "pointer" : "not-allowed",
+          fontSize: 18
         }}
         onClick={submit}
         disabled={!isFormValid}
