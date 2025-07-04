@@ -273,7 +273,7 @@ export default function Home() {
                 fontWeight: 600,
               }}
             >
-              &quot;I built an entire app with $3,000 - it would've cost $15K here.
+              &quot;I built an entire app with $3,000 - it would&apos;ve cost $15K here.
               Thie platform changed the game for out startup.&quot;
             </p>
           </div>
