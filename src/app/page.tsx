@@ -397,7 +397,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div style={{paddingLeft: 10}}>
             <p style={{fontSize: 15, lineHeight: '18px'}}>
               Who we are?
               <br />
