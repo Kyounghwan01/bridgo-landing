@@ -61,7 +61,7 @@ const Index = ({
 
       <div style={{ marginBottom: "15px" }}>
         <label
-          style={{ display: "block", marginBottom: "5px", fontWeight: 600, fontSize: 18 }}
+          style={{ display: "block", marginBottom: "5px", fontWeight: 500, fontSize: 18 }}
         >
           Email <span style={{ color: "#ff4444" }}>*</span>
         </label>
@@ -86,7 +86,7 @@ const Index = ({
 
       <div style={{ marginBottom: "15px" }}>
         <label
-          style={{ display: "block", marginBottom: "5px", fontWeight: 600, fontSize: 18 }}
+          style={{ display: "block", marginBottom: "5px", fontWeight: 500, fontSize: 18 }}
         >
           Concern <span style={{ color: "#ff4444" }}>*</span>
         </label>
