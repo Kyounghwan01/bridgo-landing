@@ -29,8 +29,8 @@ const Index = () => {
           }}
         >
           <colgroup>
-            <col style={{ width: "10%" }} />
-            <col style={{ width: "10%" }} />
+            <col style={{ width: "5%" }} />
+            <col style={{ width: "15%" }} />
             <col style={{ width: "80%" }} />
           </colgroup>
 
