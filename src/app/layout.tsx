@@ -49,7 +49,7 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '592030573639486');
+              fbq('init', '1443194687100902');
               fbq('track', 'PageView');
             `,
           }}
@@ -58,15 +58,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         {/* Meta Pixel NoScript fallback */}
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=592030573639486&ev=PageView&noscript=1"
-            alt="facebook_pixel"
-          />
-        </noscript>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1443194687100902&ev=PageView&noscript=1"
+/></noscript>
       </body>
     </html>
   );
