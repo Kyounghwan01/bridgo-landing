@@ -58,9 +58,15 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         {/* Meta Pixel NoScript fallback */}
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1443194687100902&ev=PageView&noscript=1"
-/></noscript>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1443194687100902&ev=PageView&noscript=1"
+            alt="facebook_pixel"
+          />
+        </noscript>
       </body>
     </html>
   );
